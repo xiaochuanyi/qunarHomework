@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dd16c1f-c04a-4697-ab57-bfb0e9546ea9" name="Default" comment="" />
+    <list default="true" id="5dd16c1f-c04a-4697-ab57-bfb0e9546ea9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question4/DealWithShell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/question4/DealWithShell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question5/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/question5/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sdxl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sdxl.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/question4/DealWithShell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/question4/DealWithShell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/question5/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/question5/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/question5/ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/question5/ServerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/question5/TestNio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sdxl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sdxl.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,12 +25,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/question5/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="63" column="55" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
+            <state relative-caret-position="90">
+              <caret line="60" column="17" lean-forward="true" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/question5/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="46" column="36" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="36" />
+            <state relative-caret-position="153">
+              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -51,6 +64,9 @@
       <find>} catch</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -63,13 +79,15 @@
         <option value="$PROJECT_DIR$/src/main/resources/sdxl_prop.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/sdxl.txt" />
         <option value="$PROJECT_DIR$/src/main/java/question2/CodeValidLineCount.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/test.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/question4/DealWithShell.java" />
         <option value="$PROJECT_DIR$/src/main/java/question3/TextDecryption.java" />
         <option value="$PROJECT_DIR$/src/main/java/question5/TestNio.java" />
         <option value="$PROJECT_DIR$/src/main/java/question1/LogAnalyze.java" />
         <option value="$PROJECT_DIR$/src/main/java/question5/Server1.java" />
         <option value="$PROJECT_DIR$/src/main/java/question5/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/test.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/question4/DealWithShell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/question5/TestOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/question5/TestTwo.java" />
         <option value="$PROJECT_DIR$/src/main/java/question5/Server.java" />
       </list>
     </option>
@@ -100,14 +118,17 @@
     <option name="width" value="1346" />
     <option name="height" value="687" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,6 +160,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="question3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qunar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qunar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="question4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qunar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qunar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="question5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -158,13 +195,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="question5" type="462c0819:PsiDirectoryNode" />
               <item name="Server.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="qunar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qunar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qunar" type="b2602c69:ProjectViewProjectNode" />
@@ -241,6 +271,17 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Client">
+    <configuration name="BioCrawlerServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question5.BioCrawlerServer" />
+      <module name="qunar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="question5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="question5.Client" />
       <module name="qunar" />
@@ -263,21 +304,10 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Server1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question5.Server1" />
-      <module name="qunar" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="question5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TestNio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestOne.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qunar" />
       <extension name="coverage">
         <pattern>
@@ -288,9 +318,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="question5" />
-      <option name="MAIN_CLASS_NAME" value="question5.TestNio" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="question5.TestOne" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -300,7 +330,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestNio.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTwo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qunar" />
       <extension name="coverage">
         <pattern>
@@ -311,7 +341,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="question5" />
-      <option name="MAIN_CLASS_NAME" value="question5.TestNio" />
+      <option name="MAIN_CLASS_NAME" value="question5.TestTwo" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -364,17 +394,17 @@
     <list>
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.Client" />
-      <item itemvalue="JUnit.TestNio.test" />
-      <item itemvalue="JUnit.TestNio" />
-      <item itemvalue="Application.Server1" />
+      <item itemvalue="JUnit.TestTwo.test" />
+      <item itemvalue="Application.BioCrawlerServer" />
+      <item itemvalue="JUnit.TestOne.test1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Server1" />
-        <item itemvalue="JUnit.TestNio.test" />
-        <item itemvalue="JUnit.TestNio" />
+        <item itemvalue="JUnit.TestOne.test1" />
+        <item itemvalue="JUnit.TestTwo.test" />
+        <item itemvalue="Application.BioCrawlerServer" />
       </list>
     </recent_temporary>
   </component>
@@ -418,22 +448,12 @@
       <workItem from="1562725139591" duration="1215000" />
       <workItem from="1562821188739" duration="5880000" />
       <workItem from="1562829744190" duration="1185000" />
+      <workItem from="1563073607165" duration="951000" />
+      <workItem from="1563282698058" duration="3256000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNio_test - 2019.07.01 at 14h 45m 22s.xml">
-      <configuration name="TestNio.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestNio - 2019.07.01 at 14h 46m 07s.xml">
-      <configuration name="TestNio" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestNio_test - 2019.07.01 at 14h 46m 30s.xml">
-      <configuration name="TestNio.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestNio_test - 2019.07.01 at 14h 46m 58s.xml">
-      <configuration name="TestNio.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestNio_test - 2019.07.01 at 14h 47m 12s.xml">
       <configuration name="TestNio.test" configurationId="JUnit" />
     </history-entry>
@@ -452,9 +472,21 @@
     <history-entry file="TestNio_test - 2019.07.01 at 23h 35m 40s.xml">
       <configuration name="TestNio.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestTwo_test - 2019.07.16 at 21h 38m 41s.xml">
+      <configuration name="TestTwo.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestTwo_test - 2019.07.16 at 21h 38m 59s.xml">
+      <configuration name="TestTwo.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestOne_test1 - 2019.07.16 at 21h 51m 11s.xml">
+      <configuration name="TestOne.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestOne_test1 - 2019.07.16 at 21h 51m 16s.xml">
+      <configuration name="TestOne.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71796000" />
+    <option name="totallyTimeSpent" value="76003000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -470,7 +502,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294893" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.24052718" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.23927392" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -478,12 +510,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.013179571" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3294893" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21122113" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18986385" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -491,7 +523,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.21746293" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21617162" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -512,20 +544,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/question4/DealWithShell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/access.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -687,20 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/validLineCount.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sdxl.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sdxl_prop.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -719,27 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="662" column="68" selection-start-line="662" selection-start-column="68" selection-end-line="662" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/question4/DealWithShell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/question3/TextDecryption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2278">
-          <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -774,20 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/question5/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/question5/TestNio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -795,20 +764,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/question2/CodeValidLineCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/question1/LogAnalyze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="73" column="76" selection-start-line="73" selection-start-column="76" selection-end-line="73" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/question5/Server1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/question5/TestNio.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/question5/test.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/question1/Url.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -816,21 +774,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/question5/Server1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/question5/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/question1/LogAnalyze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="36" />
+        <state relative-caret-position="1275">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/validLineCount.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/question2/CodeValidLineCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sdxl.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/question3/TextDecryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="130" column="23" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/question4/DealWithShell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-731">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/question5/TestOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/question5/TestTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/question5/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="63" column="55" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
+        <state relative-caret-position="90">
+          <caret line="60" column="17" lean-forward="true" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/question5/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>

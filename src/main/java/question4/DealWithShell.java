@@ -11,7 +11,6 @@ import java.util.*;
  * 模拟linux命令处理
  */
 public class DealWithShell {
-        private static final String TEST_FILE= "src/main/resources/test.txt";
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();

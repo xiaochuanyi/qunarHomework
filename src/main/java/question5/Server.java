@@ -42,9 +42,10 @@ class ServerThread implements Runnable{
         int englishCount = 0;
         int punctuationCount = 0;
         String info = "";
+
         try {
             //把字符串分割为数组
-            List<String> list = Splitter.fixedLength(1).trimResults().omitEmptyStrings().splitToList(url);
+            List<String> list = Splitter.fixedLength(1).trimResults().omitEmptyStrings().splitToList(getUrlInfo(url));
             //总字符数
             allCharacterCount = list.size();
             //判断是否输入了网址
@@ -58,7 +59,7 @@ class ServerThread implements Runnable{
                         punctuationCount++;
                     }
                 }
-                info = "总字符数为" + allCharacterCount+ "中文数为" + chineseCount + "英文数为" + englishCount+ "标点符号数为" + punctuationCount;
+                info = "总字符数为" + allCharacterCount + "\n中文数为" + chineseCount + "\n英文数为" + englishCount+ "\n标点符号数为" + punctuationCount;
                 //向client端返回结果
                 OutputStream outputStream = socket.getOutputStream();
                 outputStream.write(info.getBytes("UTF-8"));
@@ -66,6 +67,40 @@ class ServerThread implements Runnable{
         }catch (Exception e){
             e.printStackTrace();
         }
+    }
+
+    /**
+     * 通过url获取到对应的信息
+     * @param urlAddress
+     * @return
+     */
+    public static String getUrlInfo(String urlAddress){
+        StringBuilder resultReader = null;
+        try {
+            //获取到url对应的http请求
+            URL url = new URL(urlAddress);
+            URLConnection urlConnection = url.openConnection();
+            HttpURLConnection httpURLConnection = (HttpURLConnection) urlConnection;
+            httpURLConnection.setUseCaches(false);
+            httpURLConnection.setRequestProperty("Accept-Charset", "utf-8");
+            httpURLConnection.connect();
+            //请求码为200时获取网页内容
+            if (httpURLConnection.getResponseCode() == HttpURLConnection.HTTP_OK){
+                //获取内容
+                InputStream inputStream = httpURLConnection.getInputStream();
+                InputStreamReader urlInputStreamReader = new InputStreamReader(inputStream);
+                //将网页信息写入到BufferReader里
+                BufferedReader bufferedReader = new BufferedReader(urlInputStreamReader);
+                resultReader = new StringBuilder();
+                String everyLine = null;
+                while ((everyLine = bufferedReader.readLine()) != null){
+                    resultReader.append(everyLine);
+                }
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return resultReader.toString();
     }
 }
 public class Server{
